@@ -46,9 +46,121 @@
 
   &__posts {
     margin-left: auto;
+    max-width: 320px;
+
+    .sidebar {
+      width: 280px;
+    }
+
+    .posts__title {
+      margin-bottom: 24px;
+      text-align: center;
+
+      &:after {
+        content: "";
+        display: block;
+        margin-right: auto;
+        margin-left: auto;
+        height: 3px;
+        width: 66px;
+        margin-top: 14px;
+        background-color: #e1d9bd;
+      }
+    }
+
+    .posts__time-title-wr {
+      display: flex;
+      flex-direction: column;
+      margin-left: 20px;
+    }
+    .posts__card {
+      margin-bottom: 40px;
+    }
   }
 
-  .sidebar {
-    width: 280px;
+  .content__search {
+    margin-bottom: 40px;
+  }
+
+  .newsletter__title {
+    margin-bottom: 24px;
+    text-align: center;
+
+    &:after {
+      content: "";
+      display: block;
+      margin-right: auto;
+      margin-left: auto;
+      height: 3px;
+      width: 66px;
+      margin-top: 14px;
+      background-color: #e1d9bd;
+    }
+  }
+
+  .newsletter__subscription {
+    display: flex;
+    flex-direction: column;
+    max-width: 270px;
+  }
+
+  .newsletter__btn {
+    margin: 10px auto;
+  }
+
+  .newsletter__btn {
+    margin-bottom: 40px;
+  }
+
+  .content__tags-title {
+    margin-bottom: 24px;
+    text-align: center;
+    &:after {
+      content: "";
+      display: block;
+      margin-right: auto;
+      margin-left: auto;
+      height: 3px;
+      width: 66px;
+      margin-top: 14px;
+      background-color: #e1d9bd;
+    }
+  }
+
+  .content__tags-list {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    max-width: 300px;
+    margin-bottom: 40px;
+  }
+
+  .content__tags-item {
+    display: inline-block;
+    padding: 4px 12px;
+    border: 3px solid #eeeeee;
+    font-size: 12px;
+    color: #0f0d0e;
+  }
+
+  .categ-title {
+    margin-bottom: 24px;
+    text-align: center;
+    color: #0f0d0e;
+    &:after {
+        content: "";
+        display: block;
+        margin-right: auto;
+        margin-left: auto;
+        height: 3px;
+        width: 66px;
+        margin-top: 14px;
+        background-color: #e1d9bd;
+      }
+  }
+
+  .categ__item{
+    padding: 12px 0;
+    border-bottom: 1px solid #eeeeee;
   }
 }
