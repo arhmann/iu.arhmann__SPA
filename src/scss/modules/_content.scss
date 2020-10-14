@@ -1,0 +1,54 @@
+.content {
+  padding: 70px 0 20px;
+
+  .containter {
+    flex-direction: column;
+  }
+
+  &__blogs {
+    width: 785px;
+    display: flex;
+    margin-bottom: 70px;
+
+    .content__blog {
+      margin-left: 30px;
+      max-width: 367px;
+
+      .content__times-wrapper {
+        margin-top: 21px;
+      }
+
+      .content__text {
+        margin-top: 20px;
+        max-width: 300px;
+        font-size: 16px;
+        line-height: 1.4;
+      }
+
+      .content__title {
+        line-height: 1.2;
+        text-align: left;
+      }
+
+      .content__items-tags {
+        font-size: 14px;
+        color: #b59f5b;
+        margin-left: 18px;
+        text-transform: uppercase;
+        margin-bottom: 20px;
+      }
+
+      .content__category {
+        margin-right: 20px;
+      }
+    }
+  }
+
+  &__posts {
+    margin-left: auto;
+  }
+
+  .sidebar {
+    width: 280px;
+  }
+}
