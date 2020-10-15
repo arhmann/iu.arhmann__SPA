@@ -8,6 +8,7 @@
     background-repeat: no-repeat;
     background-size: 20px;
     background-position: center;
+
 }
 
 .btn {
@@ -16,4 +17,10 @@
     background-color: #b59f5b;
     font-size: 14px;
     color: #ffffff;
+
+    &:hover{
+        background-color: red;
+        box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+        transition: all 0.25s;
+    }
 }
