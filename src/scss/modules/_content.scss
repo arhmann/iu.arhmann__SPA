@@ -1,6 +1,10 @@
 .content {
   padding: 70px 0 20px;
 
+  img, .content__blogs {
+    border-radius: 2%;
+  }
+
   .containter {
     flex-direction: column;
   }
@@ -80,6 +84,7 @@
 
   .content__search {
     margin-bottom: 40px;
+    position: relative;
   }
 
   .newsletter__title {
@@ -101,7 +106,7 @@
   .newsletter__subscription {
     display: flex;
     flex-direction: column;
-    max-width: 270px;
+    
   }
 
   .newsletter__btn {
@@ -110,6 +115,15 @@
 
   .newsletter__btn {
     margin-bottom: 40px;
+  }
+
+  .search__group{
+    width: 100%;
+  }
+
+  .search__btn{
+    position: absolute;
+    right: 0;
   }
 
   .content__tags-title {
@@ -135,14 +149,6 @@
     margin-bottom: 40px;
   }
 
-  .content__tags-item {
-    display: inline-block;
-    padding: 4px 12px;
-    border: 3px solid #eeeeee;
-    font-size: 12px;
-    color: #0f0d0e;
-  }
-
   .categ-title {
     margin-bottom: 24px;
     text-align: center;
@@ -163,4 +169,16 @@
     padding: 12px 0;
     border-bottom: 1px solid #eeeeee;
   }
+
+  &__variables{
+
+    display: inline-block;
+    padding: 4px 12px;
+    border: 3px solid #eeeeee;
+    font-size: 12px;
+    color: #0f0d0e;
+    margin: 5px;
+  }
+
+  
 }

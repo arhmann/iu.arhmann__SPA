@@ -1,0 +1,43 @@
+.footer {
+  .footer__img-wrapper {
+    background-color: #f4f7f6;
+  }
+
+  &_imges {
+    width: 350px;
+    padding: 20px 0 20px;
+    display: flex;
+    margin: 0 auto;
+  }
+
+  &__list {
+    margin: 10px auto;
+  }
+
+  &__logo-git {
+    width: 40px;
+  }
+
+  &__copyright-wr {
+    margin: 10px auto;
+  }
+
+  &__logo-fb {
+      height: 27px;
+  }
+
+  &__logo-mail {
+      height: 25px;
+  }
+
+  &__logo-fb {
+    color: blue;
+  }
+
+  &__copyright {
+    width: 450px;
+    margin: 20px auto 20px;
+    display: flex;
+
+  }
+}
