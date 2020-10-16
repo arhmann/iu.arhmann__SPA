@@ -169,14 +169,22 @@
   .categ__item {
     padding: 12px 0;
     border-bottom: 1px solid #eeeeee;
-  
   }
 
-  .categ__link, .content__variables {
+  .categ__link,
+  .content__variables {
     &:hover {
       color: red;
       transition: all 0.25s;
+
+      
     }
+   
+  }
+  .sup {
+    margin-left: 6px;
+    color: rgb(96, 163, 96);
+    transition: all 0.25s;
   }
 
   &__variables {
